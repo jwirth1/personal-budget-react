@@ -13,12 +13,11 @@ function Menu() {
             itemType="https://schema.org/SiteNavigationElement"
             >
         
-            <header class="menu">
+            <header className="menu">
                 <ul>
                      <li><Link itemProp="url" to="/">Home</Link></li>
                      <li><Link itemProp="url" to="/about">About</Link></li>
                      <li><Link itemProp="url" to="/login">Login</Link></li>
-                     <li><Link itemProp="url" to="/biggertext.html">Bigger Font</Link></li>
                 </ul>
             </header>
          </nav>
